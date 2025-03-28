@@ -23,12 +23,12 @@
     margin: 0;
     padding: 0;
   }
-  
-  body {
+
+   body {
     background-color: black;
+    padding-top: 100px;
+    height: 100%;
     font-family: var(--font-inder);
-    display: flex;
-    flex-direction: column;
   }
   
   .font-poppins {
