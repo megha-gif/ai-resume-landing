@@ -17,13 +17,20 @@
 }
 
 @layer base {
+  html, body {
+    height: 100%;
+    min-height: 100dvh;
+    margin: 0;
+    padding: 0;
+  }
+  
   body {
     background-color: black;
-    padding-top: 100px;
-    height: 100%;
     font-family: var(--font-inder);
+    display: flex;
+    flex-direction: column;
   }
-
+  
   .font-poppins {
     font-family: var(--font-poppins);
   }
