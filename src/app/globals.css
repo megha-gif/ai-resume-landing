@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --font-family-poppins: "Poppins", sans-serif;
+  --font-family-inder: "Inder", sans-serif;
+  --font-family-alkatra: "Alkatra", cursive;
+  --font-family-albert-sans: "Albert Sans", sans-serif;
+
+  --font-poppins: var(--font-family-poppins);
+  --font-inder: var(--font-family-inder);
+  --font-alkatra: var(--font-family-alkatra);
+  --font-albert-sans: var(--font-family-albert-sans);
+}
+
+@layer base {
+  body {
+    background-color: black;
+    padding-top: 100px;
+    height: 100%;
+    font-family: var(--font-inder);
+  }
+
+  .font-poppins {
+    font-family: var(--font-poppins);
+  }
+
+  .font-inder {
+    font-family: var(--font-inder);
+  }
+
+  .font-alkatra {
+    font-family: var(--font-alkatra);
+  }
+
+  .font-albert-sans {
+    font-family: var(--font-albert-sans);
+  }
+}
+
+.glowing-ring {
+  box-shadow: 0 0 60px #8a2be2, 0 0 30px #000000;
+  filter: blur(40px);
+  animation: plusing-animate 2s infinite ease-in-out;
+}
+
+@keyframes plusing-animate {
+  0% {
+    box-shadow: 0 0 30px #8a2be2;
+  }
+  50% {
+    box-shadow: 0 0 60px #8a2be2;
+  }
+  100% {
+    box-shadow: 0 0 30px #8a2be2;
+  }
+}
