@@ -3,7 +3,7 @@ import Link from "next/link";
 const Herosection = () => {
   return (
     // Hero Section
-    <div id="#cta" className="bg-black relative overflow-visible">
+    <div id="#cta" className="bg-black relative overflow-hidden">
       {/* Wrapping Div */}
       <div className="container text-white flex  overflow-clip flex-col justify-center items-center mx-auto">
         {/* Glowing Ring */}
@@ -26,7 +26,7 @@ const Herosection = () => {
         </div>
       </div>
       {/* Linear Gradient at bottom */}
-      <div className="h-[100px] mb-[0px] w-full bg-gradient-to-b from-transparent to-[#52057B]"></div>
+      <div className="h-[100px] mb-[0px] w-full bg-gradient-to-b from-transparent to-[#52057B] md:bg-gradient-to-b"></div>
     </div>
   );
 };
