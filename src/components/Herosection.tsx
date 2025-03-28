@@ -26,7 +26,7 @@ const Herosection = () => {
         </div>
       </div>
       {/* Linear Gradient at bottom */}
-      <div className="bg-gradient-to-b from-transparent to-[#52057B]"></div>
+       <div className="h-[100px] mb-[0px] w-full bg-gradient-to-b from-transparent to-[#52057B]"></div>
     </div>
   );
 };
