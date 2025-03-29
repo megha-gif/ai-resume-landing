@@ -60,7 +60,7 @@
                onClick={() => toggleFAQ(index)}
              >
                <div className="flex justify-between items-center">
-                 <p className="text-xl font-inder bg-[linear-gradient(to_right,#FFFFFF_10%,#999999)] bg-clip-text text-transparent w-full">
+                 <p className="text-xl font-inder bg-[linear-gradient(to_right,#FFFFFF,#999999)] bg-clip-text text-transparent w-full">
                    {faq.question}
                  </p>
                  <Image
