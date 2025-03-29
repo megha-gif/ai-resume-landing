@@ -42,7 +42,7 @@
      // Faq Section
      <div
        id="faq"
-       className="w-full relative overflow-clip mb-[0px] min-h-screen  bg-gradient-to-b from-black to-[#52057B] pb-20"
+       className="w-full relative overflow-clip mb-[0px] min-h-screen  bg-[linear-gradient(to_bottom,#000000_30%,#52057B)] pb-20"
      >
        {/* Wrapping Div */}
        <div className="container text-white flex-col overflow-clip justify-center items-center flex mx-auto mt-20">
