@@ -8,57 +8,48 @@ const Featuresection = () => {
     // Features Section
     <div
       id="features"
-      className="w-full min-h-screen bg-gradient-to-b from-black to-[#52057B] flex flex-col"
+      className="relative overflow-hidden min-h-screen mb-[0px] w-full bg-gradient-to-b from-black to-[#52057B] pb-20"
     >
       {/* Wrapping Div */}
-      <div className="container flex flex-col justify-center items-center mx-auto flex-grow py-20">
+      <div className="container flex text-[#CCCCCC] flex-col overflow-clip justify-center items-center mx-auto">
         {/* Heading */}
-        <h1 className="text-white font-poppins text-center text-[35px] sm:text-[38px] md:text-[55px] lg:text-[55px]">
+        <h1 className="text-white font-poppins text-center text-[35px] sm:text-[38px] md:text-[55px] lg:text-[55px] mt-[100px]">
           Why Choose an{" "}
           <span className="text-[#540E92] font-alkatra">
             Ai-Powered Resume?
           </span>
         </h1>
-
         {/* Cards */}
-        <div className="font-poppins grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20 px-4 w-full max-w-6xl">
-          {/* Card 1 */}
-          <div className="bg-black bg-opacity-95 border-2 border-[#040404] rounded-[15px] w-full h-[288px] flex flex-col items-center text-center hover:scale-105 hover:border-[#8A2BE2] transition-all duration-300">
-            <div className="mt-12">
-              <p className="text-[28px] text-[#CCCCCC]">
-                Ai Resume Optimization
-              </p>
-              <p className="text-[13px] text-[#CCCCCC] mt-5 px-4">
-                Enhance your resume with AI-powered for better readability, formatting and keyword optimization.
-              </p>
-              <Image src={chip} alt="icon" className="mt-6 mx-auto" />
-            </div>
+        <div className="mt-15 lg:mt-40 font-poppins sm:gap-10 lg:grid-cols-3 lg:grid lg:gap-6 lg:place-items-center lg:px-4 flex flex-col items-center justify-center gap-7 px-20 pb-20 md:flex-wrap md:flex-row">
+          <div className="relative  lg:top-20 lg:left-10 lg:z-10 bg-black opacity-95 border-5 border-[#040404] rounded-[15px] w-[388px] h-[288px] flex flex-col items-center text-center  hover:scale-105 hover:border-[#8A2BE2] transition-all duration-300">
+            <p className="font-poppins text-[28px] text-[#CCCCCC] mt-15 text-center">
+              Ai Resume Optimization
+            </p>
+            <p className="font-poppins text-[13px] text-[#CCCCCC] mt-5 px-13">
+              Enchance your resume with AI-powered for better
+              readability,formatting and keyword optimization.
+            </p>
+            <Image src={chip} alt="icon" className="ml-70 " />
           </div>
-
-          {/* Card 2 */}
-          <div className="bg-black bg-opacity-95 border-2 border-[#040404] rounded-[15px] w-full h-[288px] flex flex-col items-center text-center hover:scale-105 hover:border-[#8A2BE2] transition-all duration-300">
-            <div className="mt-12">
-              <p className="text-[28px] text-[#CCCCCC]">
-                AI Resume Builder
-              </p>
-              <p className="text-[13px] text-[#CCCCCC] mt-5 px-4">
-                Create a professional resume effortlessly with AI-powered templates and real time suggestions.
-              </p>
-              <Image src={aifile} alt="icon" className="mt-6 mx-auto" />
-            </div>
+          <div className="relative lg:bottom-20 bg-black opacity-95 border-5 border-[#040404] rounded-[15px] w-[388px] h-[288px] hover:scale-105 hover:border-[#8A2BE2] transition-all duration-300 flex flex-col items-center text-center">
+            <p className="font-poppins text-[28px] text-[#CCCCCC] mt-12 text-center">
+              AI Resume Builder
+            </p>
+            <p className="font-poppins text-[13px] text-[#CCCCCC] mt-5 px-12">
+              Create a professional resume effortlessly with AI-powered
+              templates and real time suggestions.
+            </p>
+            <Image src={aifile} alt="icon" className="ml-70 lg:ml-30" />
           </div>
-
-          {/* Card 3 */}
-          <div className="bg-black bg-opacity-95 border-2 border-[#040404] rounded-[15px] w-full h-[288px] flex flex-col items-center text-center hover:scale-105 hover:border-[#8A2BE2] transition-all duration-300">
-            <div className="mt-12">
-              <p className="text-[28px] text-[#CCCCCC]">
-                ATS Score Checker
-              </p>
-              <p className="text-[13px] text-[#CCCCCC] mt-5 px-4">
-                Analyze your resume's ATS compatibility and get instant feedback to improve your chances of getting noticed.
-              </p>
-              <Image src={filecheck} alt="icon" className="mt-6 mx-auto" />
-            </div>
+          <div className="relative lg:top-20 lg:right-10 lg:z-10 bg-black opacity-95 border-5 border-[#040404] rounded-[15px] w-[388px] h-[288px] hover:scale-105 hover:border-[#8A2BE2] transition-all duration-300 flex flex-col items-center text-center">
+            <p className="font-poppins text-[28px] text-[#CCCCCC] mt-15 text-center">
+              ATS Score Checker
+            </p>
+            <p className="font-poppins text-[13px] text-[#CCCCCC] mt-5 px-12">
+              Analyze your resume’s ATS compatibility and get instant feedback
+              to improve your chances of getting noticed.
+            </p>
+            <Image src={filecheck} alt="icon" className="ml-70" />
           </div>
         </div>
       </div>
