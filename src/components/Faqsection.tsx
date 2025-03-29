@@ -116,7 +116,7 @@ const faqs = [
   {
     question: "How do I get started?",
     answer:
-      "Click "Generate My Resume" now and get your first draft FREE—no sign-up required!",
+      "Click Generate My Resum now and get your first draft FREE—no sign-up required!",
   },
 ];
 
