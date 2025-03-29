@@ -47,7 +47,7 @@
        {/* Wrapping Div */}
        <div className="container text-white flex-col overflow-clip justify-center items-center flex mx-auto mt-20">
          {/* Heading */}
-         <h2 className="text-[25px] md:text-[35px] lg:text-[48px] bg-[linear-gradient(to_right,#CCCCCC_70%,#666666)] bg-clip-text text-transparent font-poppins mt-25 md:mt-10">
+         <h2 className="text-[25px] md:text-[32px] lg:text-[48px] bg-[linear-gradient(to_right,#CCCCCC_70%,#666666)] bg-clip-text text-transparent font-poppins mt-25 md:mt-10 ">
            Frequently Asked Questions
          </h2>
  
@@ -56,11 +56,11 @@
            {faqs.map((faq, index) => (
              <div
                key={index}
-               className="mt-10 bg-gradient-to-r from-[#24063F] to-[#5F10A5] p-6 md:w-[600px] lg:w-[700px] rounded-lg shadow-lg  cursor-pointer"
+               className="bg-[linear-gradient(to_right,#24063F_70%,#5F10A5)] p-6 md:w-[600px] lg:w-[700px] rounded-lg shadow-lg  cursor-pointer"
                onClick={() => toggleFAQ(index)}
              >
                <div className="flex justify-between items-center">
-                 <p className="text-xl font-inder bg-[linear-gradient(to_right,#FFFFFF,#999999)] bg-clip-text text-transparent w-full">
+                 <p className="text-xl font-inder bg-[linear-gradient(to_right,#FFFFFF_70%,#999999)] bg-clip-text text-transparent w-full">
                    {faq.question}
                  </p>
                  <Image
