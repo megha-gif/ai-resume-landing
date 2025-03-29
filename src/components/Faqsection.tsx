@@ -47,7 +47,7 @@
        {/* Wrapping Div */}
        <div className="container text-white flex-col overflow-clip justify-center items-center flex mx-auto mt-20">
          {/* Heading */}
-         <h2 className="text-[25px] md:text-[35px] lg:text-[48px] bg-gradient-to-r from-[#CCCCCC] to-[#666666] bg-clip-text text-transparent font-poppins mt-25">
+         <h2 className="text-[25px] md:text-[35px] lg:text-[48px] bg-[linear-gradient(to_right,#CCCCCC_70%,#666666)] bg-clip-text text-transparent font-poppins mt-25">
            Frequently Asked Questions
          </h2>
  
