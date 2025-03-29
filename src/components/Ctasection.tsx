@@ -28,12 +28,12 @@ export default function CTASection() {
             </div>
           </div>
           <Link href="/Goback">
-            <button className="bg-gradient-to-r from-[#24063F] to-[#5F10A5] hover:scale-105 text-white font-light py-3 px-6 md:px-16 md:py-4 rounded-lg shadow-md transition-all mt-20 font-poppins md:mt-30">
+            <button className="bg-[linear-gradient(to_right,#24063F_70%,#5F10A5)] hover:scale-105 text-white font-light py-3 px-6 md:px-16 md:py-4 rounded-lg shadow-md transition-all mt-20 font-poppins md:mt-30">
               Get Your AI Resume Now
             </button>
           </Link>
           <Link href="#faq" className="mt-3 flex hover:scale-103">
-            <span className="bg-gradient-to-r from-[#CEB7E3] to-[#71657D] bg-clip-text text-transparent md:text-[15px]">
+            <span className="bg-[linear-gradient(to_right,#CEB7E3_70%,#71657D)] bg-clip-text text-transparent md:text-[15px]">
               Learn More
             </span>
             <span>
