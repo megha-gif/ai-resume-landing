@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import chip from "@/images/chip-icon.png";
 import aifile from "@/images/aifile-icon.png";
