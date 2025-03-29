@@ -10,7 +10,7 @@ export default function CTASection() {
     // Cta Section
     <div
       id="cta"
-      className="relative overflow-hidden mb-[0px] min-h-screen w-full bg-gradient-to-b from-black to-[#52057B] pb-20"
+      className="relative overflow-hidden mb-[0px] min-h-screen w-full bg-[linear-gradient(to_bottom,#000000_30%,#52057B)] pb-20"
     >
       {/* Wrapping Div */}
       <div className="container text-white flex-col overflow-clip justify-center items-center flex mx-auto mt-35 md:mt-50 lg:flex-row lg:mt-10">
