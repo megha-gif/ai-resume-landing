@@ -42,7 +42,7 @@
      // Faq Section
      <div
        id="faq"
-       className="w-full relative overflow-clip mb-[0px] min-h-screen  bg-[linear-gradient(to_bottom,#000000_30%,#52057B)] pb-20"
+       className="w-full relative overflow-clip mb-[0px] min-h-screen  bg-[linear-gradient(to_bottom,#000000_70%,#52057B)] pb-20"
      >
        {/* Wrapping Div */}
        <div className="container text-white flex-col overflow-clip justify-center items-center flex mx-auto mt-20">
@@ -60,7 +60,7 @@
                onClick={() => toggleFAQ(index)}
              >
                <div className="flex justify-between items-center">
-                 <p className="text-xl font-inder bg-[linear-gradient(to_right,#FFFFFF_70%,#999999)] bg-clip-text text-transparent w-full">
+                 <p className="text-xl font-inder bg-[linear-gradient(to_right,#FFFFFF_10%,#999999)] bg-clip-text text-transparent w-full">
                    {faq.question}
                  </p>
                  <Image
