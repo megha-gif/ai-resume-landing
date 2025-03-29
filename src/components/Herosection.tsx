@@ -26,7 +26,7 @@ import Link from "next/link";
          </div>
        </div>
        {/* Linear Gradient at bottom */}
-       <div className="h-[100px] mb-[0px] w-full bg-[linear-gradient(to bottom, transparent, #52057B)] relative"></div>
+       <div className="h-[100px] mb-[0px] w-full bg-[linear-gradient(to bottom, transparent, #52057B)]"></div>
      </div>
    );
  };
