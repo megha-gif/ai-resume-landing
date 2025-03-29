@@ -98,5 +98,3 @@ const Featuresection = () => {
 };
 
 export default Featuresection;
-
-export default Featuresection;
