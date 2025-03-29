@@ -42,7 +42,7 @@
      // Faq Section
      <div
        id="faq"
-       className="w-full relative overflow-clip mb-[0px] min-h-screen  bg-[linear-gradient(to_bottom,#000000_30%,#52057B)] pb-20"
+       className="w-full relative overflow-clip mb-[0px] min-h-screen  bg-[linear-gradient(to_bottom,#000000_25%,#52057B)] pb-20"
      >
        {/* Wrapping Div */}
        <div className="container text-white flex-col overflow-clip justify-center items-center flex mx-auto mt-20">
@@ -56,7 +56,7 @@
            {faqs.map((faq, index) => (
              <div
                key={index}
-               className="bg-[linear-gradient(to_right,#24063F_70%,#5F10A5)] p-6 md:w-[600px] lg:w-[700px] rounded-lg shadow-lg  cursor-pointer"
+               className="bg-[linear-gradient(to_right,#24063F_30%,#5F10A5)] p-6 md:w-[600px] lg:w-[700px] rounded-lg shadow-lg  cursor-pointer"
                onClick={() => toggleFAQ(index)}
              >
                <div className="flex justify-between items-center">
@@ -74,7 +74,7 @@
                </div>
                {openIndex === index && (
                  <div className="mt-4">
-                   <p className="mt-2 font-inder bg-[linear-gradient(to_right,#CCCCCC_70%,#666666)] bg-clip-text text-transparent ">
+                   <p className="mt-2 font-inder bg-[linear-gradient(to_right,#CCCCCC_70%,#666666)] bg-clip-text text-transparent md:text-[16px]">
                      {faq.answer}
                    </p>
                  </div>
