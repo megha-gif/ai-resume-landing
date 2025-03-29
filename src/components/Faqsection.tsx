@@ -42,12 +42,12 @@
      // Faq Section
      <div
        id="faq"
-       className="w-full relative overflow-clip mb-[0px] min-h-screen  bg-[linear-gradient(to_bottom,#000000_70%,#52057B)] pb-20"
+       className="w-full relative overflow-clip mb-[0px] min-h-screen  bg-[linear-gradient(to_bottom,#000000_30%,#52057B)] pb-20"
      >
        {/* Wrapping Div */}
        <div className="container text-white flex-col overflow-clip justify-center items-center flex mx-auto mt-20">
          {/* Heading */}
-         <h2 className="text-[25px] md:text-[35px] lg:text-[48px] bg-[linear-gradient(to_right,#CCCCCC_70%,#666666)] bg-clip-text text-transparent font-poppins mt-25">
+         <h2 className="text-[25px] md:text-[35px] lg:text-[48px] bg-[linear-gradient(to_right,#CCCCCC_70%,#666666)] bg-clip-text text-transparent font-poppins mt-25 md:mt-10">
            Frequently Asked Questions
          </h2>
  
