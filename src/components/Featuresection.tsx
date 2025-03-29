@@ -8,7 +8,7 @@ import Image from "next/image";
      // Features Section
      <div
        id="features"
-       className="relative overflow-hidden min-h-screen mb-[0px] w-full bg-[linear-gradient(#000000,#52057B)] pb-20"
+       className="relative overflow-hidden min-h-screen mb-[0px] w-full bg-[linear-gradient(to_top,#000000,#52057B)] pb-20"
      >
        {/* Wrapping Div */}
        <div className="container flex text-[#CCCCCC] flex-col overflow-clip justify-center items-center mx-auto">
