@@ -74,7 +74,7 @@
                </div>
                {openIndex === index && (
                  <div className="mt-4">
-                   <p className="mt-2 font-inder bg-[linear-gradient(to_right,#CCCCCC_70%,#666666)] bg-clip-text text-transparent md:text-[16px]">
+                   <p className="mt-2 font-inder bg-[linear-gradient(to_right,#CCCCCC_70%,#666666)] bg-clip-text text-transparent md:text-[12px] lg-[15px] text-[12px]">
                      {faq.answer}
                    </p>
                  </div>
