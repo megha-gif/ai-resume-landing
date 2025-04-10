@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     // Navbar
-    <nav className="backdrop-blur-lg fixed top-0 left-0 z-50 w-full bg-[linear-gradient(to_bottom,#000000_30%,#00AFFF_100%)]">
+    <nav className="backdrop-blur-lg fixed top-0 left-0 z-50 w-full bg-[black]">
       {/* Wrapping Div */}
       <div className="max-w-7xl flex items-center justify-between px-2 py-6 mx-auto text-white">
         {/* Logo */}
