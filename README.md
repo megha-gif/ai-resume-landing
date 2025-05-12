@@ -16,15 +16,15 @@ This is a clean and modern landing page for an AI-powered resume builder. Built 
 - Tailwind CSS
 - TypeScript
 - Framer Motion (optional)
+- React
 
 ![download](https://github.com/user-attachments/assets/a42211bd-0703-4e45-93f0-93e02cd5770e)
 
 
-About Me
-Hi! I'm Megha — a front-end developer focused on clean UI/UX.
+About Me:
+Hi! I'm Megha — a front-end developer focused on clean UI/UX Landing page.
 Connect with me on LinkedIn.
-
-(Add screenshots here if available)
+https://www.linkedin.com/in/megha-frontend-697747364/
 
 ## 🔧 How to Run Locally
 
